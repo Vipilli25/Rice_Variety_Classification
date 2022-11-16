@@ -1,15 +1,18 @@
-#CLASSIFICATION OF RICE VARIETIES
+# CLASSIFICATION OF RICE VARIETIES
 
 ## DESCRIPTION:
 This project is about classifying the rice variety by using Deep Convolutional neural network model.
 ## DATASET:
 Arborio, Basmati, Ipsala, Jasmine and Karacadag rice varieties were used with a total of 75k images including 15k pieces from each extracted from https://www.muratkoklu.com/datasets/ 
 ## Analysis
-###Partitioning and Visualizing Data
+
+### Partitioning and Visualizing Data
 The dataset needs to be split into two parts: one for training and one for validation. As each epoch passes, the model gets trained on the training subset. Then, it assesses its performance and accuracy on the validation subset simultaneously
-###Importing the Pre-trained Model
+
+### Importing the Pre-trained Model
 We selected the ResNet-50 model from TensorFlow’s Keras Library to use transfer learning and create a classifier model from keras library.
-#Network Architecture 
+# Network Architecture 
+
 ```bash
 ResNet50 CNN model, a variant of ResNet which has 48 Convolutional layers along with 1 MaxPool and 1 Average Pool layer.
 * A convolution with a kernel size of 7 * 7 and 64 different kernels all with a stride of size 2 giving us 1 layer.
@@ -22,11 +25,12 @@ ResNet50 CNN model, a variant of ResNet which has 48 Convolutional layers along 
 * We don't actually count the activation functions and the max/ average pooling layers.
 so, totaling this it gives us a 1 + 9 + 12 + 18 + 9 + 1 = 50 layers Deep Convolutional network.
 ```
-###Training and Finding Accuracy
+
+### Training and Finding Accuracy
 We did split the dataset into two sets out of which 75 percent is considered for training and rest for testing. Meanwhile we train the data we validate the results escaping the wrong predictions. After training and Evaluating model, we check the accuracy and loss over the given dataset.
 
 
- ##GROUP – 24 Members:
+ ## GROUP – 24 Members:
  BT20CSE095 - Tejas Peshwe
  BT20CSE096 - Vishal Pilli
  BT20CSE097 - Prajval Tushar Pase
