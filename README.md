@@ -31,8 +31,8 @@ We did split the dataset into two sets out of which 75 percent is considered for
 
 
  ## GROUP – 24 Members:
- BT20CSE095 - Tejas Peshwe
- BT20CSE096 - Vishal Pilli
- BT20CSE097 - Prajval Tushar Pase
- BT20CSE098 – Pranjal Chouhan
+ BT20CSE095 - Tejas Peshwe,
+ BT20CSE096 - Vishal Pilli,
+ BT20CSE097 - Prajval Tushar Pase,
+ BT20CSE098 – Pranjal Chouhan.
 
